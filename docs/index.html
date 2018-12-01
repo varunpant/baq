@@ -36,16 +36,24 @@
       <a href="news.html">News</a>
       <a href="contach.html">Contact</a>
       <a href="about.html">About</a> 
+      <select id="ddlCities" onchange="citySelected(this)">
+        
+         
+      </select>
     </nav>
   
-  <main>
+  
     <div id="map"></div>
-  </main>
+    <div class='map-overlay' id='legend'></div>
+     
 
   <footer>
 
   </footer>
 </body>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
   <script src="js/leaflet.js"></script>
+  <script src="js/leaflet-idw.js"></script>
+  
   <script src="js/main.js"></script>
 </html>
